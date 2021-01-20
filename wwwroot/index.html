@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<!--Author: Brent J. Smith
+    This website lists some of my goals and dreams.
+    It also calculates the user's final grade in IS 413.-->
+
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title>B. Smith Assignment #1</title>
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link href="Style.css" rel="stylesheet" /> <!--Links the CSS sheet to this html file/website.-->
+</head>
+
+<body>
+    <div>
+        <center>
+            <header>Brent Julius Smith</header> <!--This is the Header-->
+            <img src="trike.jpg" alt="MeOnATrike" width="768" height="960" />
+        </center>
+        <center>
+            <p>
+                I hope to learn how to build a dynamic website through ASP.NET Core and React. I hope to walk away with a brighter determination to
+                accomplish tasks and more drive to do difficult things. I am hoping to get some life-long friends and acquaintances
+            </p>
+        </center>
+        <h1>LIST OF SOME OF THE CAREERS I AM INTERESTED IN:</h1>
+        <ol><li>Information Systems Consultant</li><li>Network Engineer</li><li>Software Development Project Manager</li></ol>
+        <h1>Enter your percentages into this <b>GRADE CALCULATOR</b> as whole numbers. Example: 99</h1>
+        <form>
+            <label>Assignments:</label>
+            <input type="number" name="assignments">
+            <label>Group Projects:</label>
+            <input type="number" name="gProjects">
+            <label>Quizzes:</label>
+            <input type="number" name="quizzes">
+            <label>Exams:</label>
+            <input type="number" name="exams">
+            <label>INTEX:</label>
+            <input type="number" name="intex">
+            <button onclick="GradeCalculator()" id="CalcGrade">Calculate Grade</button>
+        </form>
+    </div>
+        <script src="js/GradeCalculator.js"></script> <!--How the JavaScript gets linked to this HTML.-->
+
+
+</body>
+
+</html>
+
